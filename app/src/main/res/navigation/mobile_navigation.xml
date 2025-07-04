@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_map">
+
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="com.example.a2866777l_development_project.map.MapFragment"
+        android:label="@string/bottom_map"
+        tools:layout="@layout/fragment_map" >
+        <action
+            android:id="@+id/action_navigation_map_to_navigation_list"
+            app:destination="@id/navigation_list" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_list"
+        android:name="com.example.a2866777l_development_project.list.ListFragment"
+        android:label="@string/bottom_list"
+        tools:layout="@layout/fragment_list" >
+        <action
+            android:id="@+id/action_navigation_list_to_navigation_post"
+            app:destination="@id/navigation_post" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_post"
+        android:name="com.example.a2866777l_development_project.post.PostFragment"
+        android:label="@string/bottom_post"
+        tools:layout="@layout/fragment_post" >
+        <action
+            android:id="@+id/action_navigation_post_to_navigation_profile"
+            app:destination="@id/navigation_profile" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.a2866777l_development_project.profile.ProfileFragment"
+        android:label="@string/bottom_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

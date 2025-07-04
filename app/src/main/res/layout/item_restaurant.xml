@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="16dp"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/restaurant_name"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Restaurant Name"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/check_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="@drawable/custom_button"
+        android:text="Check In" />
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:background="@drawable/custom_button"
+
+        android:text="Delete" />
+</LinearLayout>

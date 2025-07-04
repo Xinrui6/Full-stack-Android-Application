@@ -1,0 +1,2627 @@
+"roboscript": {
+  "executionMode": {
+    "strict": false
+  },
+  "postscript": {
+    "terminate": false
+  }
+}
+[
+  {
+    "crawlStage": "crawl",
+    "contextDescriptor": {
+      "condition": "app_under_test_shown"
+    },
+    "actions": [
+      {
+        "eventType": "VIEW_TEXT_CHANGED",
+        "timestamp": 1723633530507,
+        "replacementText": "4@email.com",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.textfield.TextInputEditText",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/editTextEmail",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "android.widget.FrameLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "com.google.android.material.textfield.TextInputLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 2,
+            "resourceId": "com.example.a2866777l_development_project:id/editTextEmailLayout",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_TEXT_CHANGED",
+        "timestamp": 1723633553376,
+        "replacementText": "123456",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.textfield.TextInputEditText",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/editTextPassword",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "android.widget.FrameLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "com.google.android.material.textfield.TextInputLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 3,
+            "resourceId": "com.example.a2866777l_development_project:id/editTextPasswordLayout",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633564056,
+        "replacementText": "Login",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.button.MaterialButton",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 5,
+            "resourceId": "com.example.a2866777l_development_project:id/login_button",
+            "contentDescription": "",
+            "text": "Login"
+          },
+          {
+            "className": "android.widget.LinearLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "androidx.appcompat.widget.ContentFrameLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 1,
+            "resourceId": "android:id/content",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633579968,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633580772,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633580864,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633580932,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633581021,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633581106,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633581172,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633581223,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633581313,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633581381,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633581449,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633581508,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633581588,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633581645,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633581704,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633581764,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633581816,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633581861,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633581920,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633581992,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633582116,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633582232,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633582436,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633582511,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633582606,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633582672,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633582733,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633582803,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633582869,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633582932,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633583060,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633583283,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633583497,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633584194,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633584317,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633584503,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633584724,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633584822,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633584961,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633585108,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633585358,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633585550,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633585654,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633585771,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633585871,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633585935,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633586008,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633586161,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633586286,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633586387,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633586468,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633586692,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633586841,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633587016,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633587153,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633587274,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633587407,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633587479,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633587555,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633587668,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633587794,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633587882,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633588079,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633588186,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633588274,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633588539,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633588614,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633588747,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "PERMISSIONS_REQUEST",
+        "timestamp": 1723633588918,
+        "actionCode": 1,
+        "delayTime": 0,
+        "requestedPermissions": [
+          "android.permission.ACCESS_FINE_LOCATION"
+        ],
+        "canScrollTo": false,
+        "elementDescriptors": []
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633602813,
+        "replacementText": "",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "androidx.appcompat.widget.AppCompatEditText",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 1,
+            "resourceId": "com.example.a2866777l_development_project:id/places_autocomplete_search_input",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "android.widget.LinearLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "androidx.fragment.app.FragmentContainerView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/autocomplete_fragment",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_TEXT_CHANGED",
+        "timestamp": 1723633608016,
+        "replacementText": "mcdonald\u0027s",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "androidx.appcompat.widget.AppCompatEditText",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 1,
+            "resourceId": "com.example.a2866777l_development_project:id/places_autocomplete_search_bar",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "android.widget.LinearLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/places_autocomplete_search_bar_container",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "android.widget.LinearLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633675691,
+        "replacementText": "",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "android.widget.LinearLayout",
+            "recyclerViewChildPosition": 0,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": -1,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "androidx.recyclerview.widget.RecyclerView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 2,
+            "resourceId": "com.example.a2866777l_development_project:id/places_autocomplete_list",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "android.widget.LinearLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633695379,
+        "replacementText": "TO LIST",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.button.MaterialButton",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 13,
+            "resourceId": "com.example.a2866777l_development_project:id/dialog_addToList",
+            "contentDescription": "",
+            "text": "TO LIST"
+          },
+          {
+            "className": "androidx.constraintlayout.widget.ConstraintLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "android.widget.FrameLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "android:id/custom",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633705595,
+        "replacementText": "",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "androidx.appcompat.widget.AppCompatImageButton",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/dialog_share",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "androidx.constraintlayout.widget.ConstraintLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "android.widget.FrameLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "android:id/custom",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633730419,
+        "replacementText": "Check In",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.button.MaterialButton",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 1,
+            "resourceId": "com.example.a2866777l_development_project:id/dialog_check_in_button",
+            "contentDescription": "",
+            "text": "Check In"
+          },
+          {
+            "className": "androidx.constraintlayout.widget.ConstraintLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "android.widget.FrameLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "android:id/custom",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633734354,
+        "replacementText": "Comment",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 14,
+            "resourceId": "com.example.a2866777l_development_project:id/dialog_add_comment",
+            "contentDescription": "",
+            "text": "Comment"
+          },
+          {
+            "className": "androidx.constraintlayout.widget.ConstraintLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "android.widget.FrameLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "android:id/custom",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633736941,
+        "replacementText": "Recommend",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.radiobutton.MaterialRadioButton",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/radioButtonRecommend",
+            "contentDescription": "",
+            "text": "Recommend"
+          },
+          {
+            "className": "android.widget.RadioGroup",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 3,
+            "resourceId": "com.example.a2866777l_development_project:id/radioGroupRecommend",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "android.widget.LinearLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_TEXT_CHANGED",
+        "timestamp": 1723633744127,
+        "replacementText": "Fast food",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.textfield.TextInputEditText",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/editTextMainFlavor",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "android.widget.FrameLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "com.google.android.material.textfield.TextInputLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 4,
+            "resourceId": "com.example.a2866777l_development_project:id/editTextMainFlavorsLayout",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_TEXT_CHANGED",
+        "timestamp": 1723633776536,
+        "replacementText": "Big mac",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.textfield.TextInputEditText",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/editTextSignatureDishes",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "android.widget.FrameLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "com.google.android.material.textfield.TextInputLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 5,
+            "resourceId": "com.example.a2866777l_development_project:id/editTextSignitureDishesLayout",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633781956,
+        "replacementText": "Submit",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.button.MaterialButton",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 7,
+            "resourceId": "com.example.a2866777l_development_project:id/buttonSubmitComment",
+            "contentDescription": "",
+            "text": "Submit"
+          },
+          {
+            "className": "android.widget.LinearLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "android.widget.FrameLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "android:id/custom",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633787148,
+        "replacementText": "",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.bottomnavigation.BottomNavigationItemView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 1,
+            "resourceId": "com.example.a2866777l_development_project:id/navigation_list",
+            "contentDescription": "List",
+            "text": ""
+          },
+          {
+            "className": "com.google.android.material.bottomnavigation.BottomNavigationMenuView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "com.google.android.material.bottomnavigation.BottomNavigationView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 1,
+            "resourceId": "com.example.a2866777l_development_project:id/nav_view",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633791982,
+        "replacementText": "",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "androidx.cardview.widget.CardView",
+            "recyclerViewChildPosition": 0,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": -1,
+            "resourceId": "com.example.a2866777l_development_project:id/card_view",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "androidx.recyclerview.widget.RecyclerView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 2,
+            "resourceId": "com.example.a2866777l_development_project:id/recycler_view",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "android.widget.RelativeLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/list_fragment",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633796620,
+        "replacementText": "Delete",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.button.MaterialButton",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 2,
+            "resourceId": "com.example.a2866777l_development_project:id/delete_button",
+            "contentDescription": "",
+            "text": "Delete"
+          },
+          {
+            "className": "android.widget.LinearLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "androidx.recyclerview.widget.RecyclerView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 3,
+            "resourceId": "com.example.a2866777l_development_project:id/recycler_view_restaurants",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633799024,
+        "replacementText": "",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "androidx.appcompat.widget.AppCompatImageButton",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "Navigate up",
+            "text": ""
+          },
+          {
+            "className": "androidx.appcompat.widget.Toolbar",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/tool_bar",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "android.widget.RelativeLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633800309,
+        "replacementText": "",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "androidx.cardview.widget.CardView",
+            "recyclerViewChildPosition": 0,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": -1,
+            "resourceId": "com.example.a2866777l_development_project:id/card_view",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "androidx.recyclerview.widget.RecyclerView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 2,
+            "resourceId": "com.example.a2866777l_development_project:id/recycler_view",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "android.widget.RelativeLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/list_fragment",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633801710,
+        "replacementText": "",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "androidx.appcompat.widget.AppCompatImageButton",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "Navigate up",
+            "text": ""
+          },
+          {
+            "className": "androidx.appcompat.widget.Toolbar",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/tool_bar",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "android.widget.RelativeLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633803110,
+        "replacementText": "",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.bottomnavigation.BottomNavigationItemView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/navigation_map",
+            "contentDescription": "Map",
+            "text": ""
+          },
+          {
+            "className": "com.google.android.material.bottomnavigation.BottomNavigationMenuView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "com.google.android.material.bottomnavigation.BottomNavigationView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 1,
+            "resourceId": "com.example.a2866777l_development_project:id/nav_view",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633804821,
+        "replacementText": "",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.bottomnavigation.BottomNavigationItemView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 1,
+            "resourceId": "com.example.a2866777l_development_project:id/navigation_list",
+            "contentDescription": "List",
+            "text": ""
+          },
+          {
+            "className": "com.google.android.material.bottomnavigation.BottomNavigationMenuView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "com.google.android.material.bottomnavigation.BottomNavigationView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 1,
+            "resourceId": "com.example.a2866777l_development_project:id/nav_view",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633806228,
+        "replacementText": "",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "androidx.cardview.widget.CardView",
+            "recyclerViewChildPosition": 0,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": -1,
+            "resourceId": "com.example.a2866777l_development_project:id/card_view",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "androidx.recyclerview.widget.RecyclerView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 2,
+            "resourceId": "com.example.a2866777l_development_project:id/recycler_view",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "android.widget.RelativeLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/list_fragment",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633811794,
+        "replacementText": "",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "androidx.appcompat.widget.AppCompatImageButton",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "Navigate up",
+            "text": ""
+          },
+          {
+            "className": "androidx.appcompat.widget.Toolbar",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/tool_bar",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "android.widget.RelativeLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633813435,
+        "replacementText": "Edit",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.textview.MaterialTextView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/edit",
+            "contentDescription": "",
+            "text": "Edit"
+          },
+          {
+            "className": "android.widget.RelativeLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/list_fragment",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "androidx.fragment.app.FragmentContainerView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/nav_host_fragment_map",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633815250,
+        "replacementText": "",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "androidx.appcompat.widget.AppCompatImageView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/close_icon",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "android.widget.LinearLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "androidx.cardview.widget.CardView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/card_view",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633817494,
+        "replacementText": "Delete",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": true,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.button.MaterialButton",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 3,
+            "resourceId": "android:id/button1",
+            "contentDescription": "",
+            "text": "Delete"
+          },
+          {
+            "className": "com.android.internal.widget.ButtonBarLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "android.widget.ScrollView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 3,
+            "resourceId": "android:id/buttonPanel",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633820289,
+        "replacementText": "Done",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.textview.MaterialTextView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/edit",
+            "contentDescription": "",
+            "text": "Done"
+          },
+          {
+            "className": "android.widget.RelativeLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/list_fragment",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "androidx.fragment.app.FragmentContainerView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/nav_host_fragment_map",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633823992,
+        "replacementText": "",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.bottomnavigation.BottomNavigationItemView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 2,
+            "resourceId": "com.example.a2866777l_development_project:id/navigation_post",
+            "contentDescription": "Insights",
+            "text": ""
+          },
+          {
+            "className": "com.google.android.material.bottomnavigation.BottomNavigationMenuView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "com.google.android.material.bottomnavigation.BottomNavigationView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 1,
+            "resourceId": "com.example.a2866777l_development_project:id/nav_view",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633825530,
+        "replacementText": "",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.bottomnavigation.BottomNavigationItemView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 3,
+            "resourceId": "com.example.a2866777l_development_project:id/navigation_profile",
+            "contentDescription": "Profile",
+            "text": ""
+          },
+          {
+            "className": "com.google.android.material.bottomnavigation.BottomNavigationMenuView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "com.google.android.material.bottomnavigation.BottomNavigationView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 1,
+            "resourceId": "com.example.a2866777l_development_project:id/nav_view",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633828404,
+        "replacementText": "Edit",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.textview.MaterialTextView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/profile_edit",
+            "contentDescription": "",
+            "text": "Edit"
+          },
+          {
+            "className": "androidx.constraintlayout.widget.ConstraintLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "androidx.fragment.app.FragmentContainerView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/nav_host_fragment_map",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_TEXT_CHANGED",
+        "timestamp": 1723633831814,
+        "replacementText": "4Test",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.textfield.TextInputEditText",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/editTextUsername",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "android.widget.FrameLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "com.google.android.material.textfield.TextInputLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/editTextUsernameLayout",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_TEXT_CHANGED",
+        "timestamp": 1723633838072,
+        "replacementText": "Boston",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.textfield.TextInputEditText",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/editTextHomeTown",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "android.widget.FrameLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "com.google.android.material.textfield.TextInputLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 1,
+            "resourceId": "com.example.a2866777l_development_project:id/editTextHomeTownLayout",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_TEXT_CHANGED",
+        "timestamp": 1723633849649,
+        "replacementText": "for Test",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.textfield.TextInputEditText",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/editTextBio",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "android.widget.FrameLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "com.google.android.material.textfield.TextInputLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 2,
+            "resourceId": "com.example.a2866777l_development_project:id/editTextBioLayout",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633855295,
+        "replacementText": "ADD",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": true,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.button.MaterialButton",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 3,
+            "resourceId": "android:id/button1",
+            "contentDescription": "",
+            "text": "ADD"
+          },
+          {
+            "className": "androidx.appcompat.widget.ButtonBarLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "android.widget.ScrollView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 3,
+            "resourceId": "com.example.a2866777l_development_project:id/buttonPanel",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633858593,
+        "replacementText": "",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.bottomnavigation.BottomNavigationItemView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 2,
+            "resourceId": "com.example.a2866777l_development_project:id/navigation_post",
+            "contentDescription": "Insights",
+            "text": ""
+          },
+          {
+            "className": "com.google.android.material.bottomnavigation.BottomNavigationMenuView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "com.google.android.material.bottomnavigation.BottomNavigationView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 1,
+            "resourceId": "com.example.a2866777l_development_project:id/nav_view",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633859592,
+        "replacementText": "",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.bottomnavigation.BottomNavigationItemView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 3,
+            "resourceId": "com.example.a2866777l_development_project:id/navigation_profile",
+            "contentDescription": "Profile",
+            "text": ""
+          },
+          {
+            "className": "com.google.android.material.bottomnavigation.BottomNavigationMenuView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "com.google.android.material.bottomnavigation.BottomNavigationView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 1,
+            "resourceId": "com.example.a2866777l_development_project:id/nav_view",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633865978,
+        "replacementText": "",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "androidx.appcompat.widget.AppCompatImageButton",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 11,
+            "resourceId": "com.example.a2866777l_development_project:id/fab_add_flavor",
+            "contentDescription": "add more flavors",
+            "text": ""
+          },
+          {
+            "className": "androidx.constraintlayout.widget.ConstraintLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "androidx.fragment.app.FragmentContainerView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/nav_host_fragment_map",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_TEXT_CHANGED",
+        "timestamp": 1723633869124,
+        "replacementText": "McDonald\u0027s ",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.textfield.TextInputEditText",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/editTextFlavor",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "android.widget.FrameLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "com.google.android.material.textfield.TextInputLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/editTextFlavorLayout",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633877694,
+        "replacementText": "ADD",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": true,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.button.MaterialButton",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 3,
+            "resourceId": "android:id/button1",
+            "contentDescription": "",
+            "text": "ADD"
+          },
+          {
+            "className": "androidx.appcompat.widget.ButtonBarLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "android.widget.ScrollView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 3,
+            "resourceId": "com.example.a2866777l_development_project:id/buttonPanel",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633899850,
+        "replacementText": "",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "androidx.appcompat.widget.AppCompatImageButton",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 2,
+            "resourceId": "com.example.a2866777l_development_project:id/profile_share",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "androidx.constraintlayout.widget.ConstraintLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "androidx.fragment.app.FragmentContainerView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/nav_host_fragment_map",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633985491,
+        "replacementText": "Follow",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.button.MaterialButton",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 6,
+            "resourceId": "com.example.a2866777l_development_project:id/follow_button",
+            "contentDescription": "",
+            "text": "Follow"
+          },
+          {
+            "className": "android.widget.LinearLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "android.widget.FrameLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "android:id/content",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633987927,
+        "replacementText": "",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.bottomnavigation.BottomNavigationItemView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 3,
+            "resourceId": "com.example.a2866777l_development_project:id/navigation_profile",
+            "contentDescription": "Profile",
+            "text": ""
+          },
+          {
+            "className": "com.google.android.material.bottomnavigation.BottomNavigationMenuView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "com.google.android.material.bottomnavigation.BottomNavigationView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 1,
+            "resourceId": "com.example.a2866777l_development_project:id/nav_view",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633994927,
+        "replacementText": "",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.bottomnavigation.BottomNavigationItemView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/navigation_map",
+            "contentDescription": "Map",
+            "text": ""
+          },
+          {
+            "className": "com.google.android.material.bottomnavigation.BottomNavigationMenuView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "com.google.android.material.bottomnavigation.BottomNavigationView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 1,
+            "resourceId": "com.example.a2866777l_development_project:id/nav_view",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723633999575,
+        "replacementText": "",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.bottomnavigation.BottomNavigationItemView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 1,
+            "resourceId": "com.example.a2866777l_development_project:id/navigation_list",
+            "contentDescription": "List",
+            "text": ""
+          },
+          {
+            "className": "com.google.android.material.bottomnavigation.BottomNavigationMenuView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "com.google.android.material.bottomnavigation.BottomNavigationView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 1,
+            "resourceId": "com.example.a2866777l_development_project:id/nav_view",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723634002202,
+        "replacementText": "",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "com.google.android.material.bottomnavigation.BottomNavigationItemView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/navigation_map",
+            "contentDescription": "Map",
+            "text": ""
+          },
+          {
+            "className": "com.google.android.material.bottomnavigation.BottomNavigationMenuView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "com.google.android.material.bottomnavigation.BottomNavigationView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 1,
+            "resourceId": "com.example.a2866777l_development_project:id/nav_view",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723634003414,
+        "replacementText": "",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "androidx.appcompat.widget.AppCompatEditText",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 1,
+            "resourceId": "com.example.a2866777l_development_project:id/places_autocomplete_search_input",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "android.widget.LinearLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "androidx.fragment.app.FragmentContainerView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/autocomplete_fragment",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_TEXT_CHANGED",
+        "timestamp": 1723634004977,
+        "replacementText": "celino\u0027s",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "androidx.appcompat.widget.AppCompatEditText",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 1,
+            "resourceId": "com.example.a2866777l_development_project:id/places_autocomplete_search_bar",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "android.widget.LinearLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/places_autocomplete_search_bar_container",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "android.widget.LinearLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723634011845,
+        "replacementText": "",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "android.widget.LinearLayout",
+            "recyclerViewChildPosition": 0,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": -1,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "androidx.recyclerview.widget.RecyclerView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 2,
+            "resourceId": "com.example.a2866777l_development_project:id/places_autocomplete_list",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "android.widget.LinearLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "eventType": "VIEW_CLICKED",
+        "timestamp": 1723634045452,
+        "replacementText": "",
+        "actionCode": -1,
+        "delayTime": 0,
+        "canScrollTo": false,
+        "elementDescriptors": [
+          {
+            "className": "androidx.appcompat.widget.AppCompatImageButton",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 2,
+            "resourceId": "com.example.a2866777l_development_project:id/places_autocomplete_clear_button",
+            "contentDescription": "Clear search",
+            "text": ""
+          },
+          {
+            "className": "android.widget.LinearLayout",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "",
+            "contentDescription": "",
+            "text": ""
+          },
+          {
+            "className": "androidx.fragment.app.FragmentContainerView",
+            "recyclerViewChildPosition": -1,
+            "adapterViewChildPosition": -1,
+            "groupViewChildPosition": 0,
+            "resourceId": "com.example.a2866777l_development_project:id/autocomplete_fragment",
+            "contentDescription": "",
+            "text": ""
+          }
+        ]
+      }
+    ]
+  }
+]

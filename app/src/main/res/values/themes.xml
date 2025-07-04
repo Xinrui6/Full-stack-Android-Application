@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme._2866777ldevelopmentproject" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/shrine_pink_light</item>
+
+        <!-- Secondary color attributes -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+
+        <!-- Surface and background attributes -->
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+<!--        <item name="colorBackground">@color/colorBackground</item>-->
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+
+        <!-- Other attributes -->
+        <item name="colorError">@color/colorError</item>
+        <item name="colorOnError">@color/colorOnError</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/colorOnError</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.Material3.MediumComponent</item>
+
+
+
+        <!-- Customize your theme here. -->
+    </style>
+
+
+
+
+
+</resources>

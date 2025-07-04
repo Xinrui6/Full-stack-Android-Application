@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hometown_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hometown"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/biography_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Biography"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/flavor_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Flavors"
+        android:textSize="16sp" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chip_group_flavors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginBottom="68dp" />
+
+    <TextView
+        android:id="@+id/checkins_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Checkins"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/follow_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Follow" />
+</LinearLayout>

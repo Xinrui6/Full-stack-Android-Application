@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "666514823566",
+    "project_id": "clear-arbor-426817-u4",
+    "storage_bucket": "clear-arbor-426817-u4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666514823566:android:fe4b9255f7ca626694acdf",
+        "android_client_info": {
+          "package_name": "com.example.a2866777l_development_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1kUPEEoKtGvfhageGTLQZsjk-OxpMdJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

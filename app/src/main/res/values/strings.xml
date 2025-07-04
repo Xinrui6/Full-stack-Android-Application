@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">2866777l-development-project</string>
+    <string name="bottom_map">Map</string>
+    <string name="bottom_list">List</string>
+    <string name="bottom_post">Insights</string>
+    <string name="bottom_profile">Profile</string>
+    <string name="login_title">Welcome</string>
+    <string name="email_hint">Email</string>
+    <string name="Username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="login_button_text">Login</string>
+    <string name="signup_prompt">Not a member yet? Sign up</string>
+    <string name="logo_desc">App Logo</string>
+    <string name="register_title">Create An Account</string>
+    <string name="login_prompt">Already have an account? Login</string>
+    <string name="error_username_empty">Username cannot be empty</string>
+    <string name="error_email_empty">Email cannot be empty</string>
+    <string name="error_password_empty">Password cannot be empty</string>
+    <string name="error_confirm_password_empty">Confirm password cannot be empty</string>
+    <string name="error_password_mismatch">Confirm password does not match your password</string>
+    <string name="account_created">Account created successfully!</string>
+    <string name="account_created_failed">Account creation failed</string>
+    <string name="google_maps_key">AIzaSyCzr_SE6ZAVO4b7G7OlUVoc4VLxr1boTcY</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="shrine_pink_100">#F9A8D4</color>
+    <color name="shrine_pink_900">#31111D</color>
+    <color name="shrine_pink_light">#FCE4EC</color>
+    <color name="white">#D1C4E9</color>
+    <color name="black">#000000</color>
+
+    <color name="colorPrimary">#7D5260</color>
+    <color name="colorPrimaryVariant">#FFD8E4</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+
+    <color name="colorSecondary">#633B48</color>
+    <color name="colorSecondaryVariant">#EFB8C8</color>
+    <color name="colorOnSecondary">#31111D</color>
+
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorOnSurface">#000000</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorOnBackground">#000000</color>
+
+    <color name="colorError">#B00020</color>
+    <color name="colorOnError">#FFFFFF</color>
+
+    <!-- Night mode colors -->
+    <color name="colorPrimaryNight">#FFD8E4</color>
+    <color name="colorPrimaryVariantNight">#FF6200EE</color>
+    <color name="colorOnPrimaryNight">#000000</color>
+    <color name="colorSecondaryNight">#03DAC6</color>
+    <color name="colorSecondaryVariantNight">#018786</color>
+    <color name="colorOnSecondaryNight">#000000</color>
+    <color name="colorSurfaceNight">#121212</color>
+    <color name="colorOnSurfaceNight">#FFFFFF</color>
+    <color name="colorBackgroundNight">#121212</color>
+    <color name="colorOnBackgroundNight">#FFFFFF</color>
+    <color name="colorErrorNight">#CF6679</color>
+    <color name="colorOnErrorNight">#000000</color>
+    <color name="open">#49CA4F</color>
+
+</resources>

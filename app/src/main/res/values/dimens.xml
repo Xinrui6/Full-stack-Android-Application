@@ -1,0 +1,9 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="m3_btn_elevated_btn_elevation">4dp</dimen>
+    <dimen name="photo_preview_size">60dp</dimen>
+    <dimen name="photo_review_size">100dp</dimen>
+
+</resources>
